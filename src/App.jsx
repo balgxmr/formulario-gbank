@@ -15,7 +15,7 @@ export default function App() {
 
       <div className="max-w-3xl mx-auto grid gap-4 sm:grid-cols-2">
         {tarjetas.map((t) => (
-          <Tarjeta key={t.id} nombre={t.nombre} fecha={t.fecha} comentarios={t.comentarios} />
+          <Tarjeta key={t.id} nombre={t.nombre} fecha={t.fecha} comentarios={t.comentarios} edad={t.edad} />
         ))}
       </div>
     </div>
